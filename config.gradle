@@ -1,0 +1,27 @@
+ext{
+    //false,单独开发
+    isRunAlone=false
+    //暂不用
+    // 统一配置版本号
+    versions=[
+            applicationId : "com.pmcc.aroutdemo",
+
+            minSdkVersion           : 19,
+            targetSdkVersion        : 27,
+            versionCode             : 1,                    //版本号
+            versionName             : "1.0.0",              //版本名称
+
+            compileSdkVersion       : 27,
+            buildToolsVersion       : "27.0.3",
+
+
+    ]
+    //暂不用
+    dependencies=[
+            "arouter_api"   :   "com.alibaba:arouter-api:1.4.1",
+            "arouter-compiler"  :   "com.alibaba:arouter-compiler:1.2.2",
+            "appcompat-v7"  :   "com.android.support:appcompat-v7:27.1.1",
+            "constraint-layout" :   "com.android.support.constraint:constraint-layout:1.1.3",
+            "fastjson" :   "compile 'com.alibaba:fastjson:1.1.70.android'"
+    ]
+}
